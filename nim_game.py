@@ -1,15 +1,27 @@
-def create_children(node):
-    pass
+from game import play_game, input_game
 
 
-def minimax(node):
-    if node.is_terminal:
-        return 0
-    create_children(node)
-    values = []
 
-    for children in node.childrens:
-        valeur = minimax(children)
-        values.append(valeur)
 
-    return max(values)
+def move(matches, coup):
+    return matches-int(coup)
+
+def nim_game(player1,player2):
+    matches = 7
+    while matches > 0:
+        coup = input_game(player1, player2)
+        matches = move(matches, coup)
+        print(f"Il reste {matches} allumettes")
+
+    return player1, player2
+
+def main ():
+    player1, player2 = play_game()
+    player1, player2 = nim_game(player1, player2)
+    if player2.tour:
+        print(f"{player1.name} à perdu et {player2.name} à gagner")
+    else:
+        print(f"{player2.name} à perdu et {player1.name} à gagner")
+
+if __name__ == "__main__":
+    main()
