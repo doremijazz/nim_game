@@ -2,7 +2,7 @@
 
 Le jeu commence avec **7 allumettes**. À chaque tour, un joueur
 retire entre **1 et 4 allumettes**. Le joueur qui retire la dernière
-allumette gagne la partie.
+allumette perd la partie.
 
 ## Fonctionnalités
 
