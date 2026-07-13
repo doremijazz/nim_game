@@ -4,10 +4,41 @@ from player import Player
 
 
 def move(matches, coup):
+    """
+    Met à jour le nombre d'allumettes restantes.
+
+    : parameter
+        matches : nombre d'allumettes restantes
+        coup : nombre d'allumettes retirées
+
+    : type
+        matches : int
+        coup : int
+
+    : return
+        matches : nombre d'allumettes restantes après le coup
+    """
     return matches-int(coup)
 
 def nim_game(player1,player2, node):
-    matches = 7
+    """
+    Déroule une partie complète de Nim.
+
+    : parameter
+        player1 : premier joueur
+        player2 : second joueur ou ordinateur
+        node : état actuel du jeu
+
+    : type
+        player1 : Player
+        player2 : Player
+        node : Node
+
+    : return
+        player1 : premier joueur
+        player2 : second joueur
+    """
+    matches = 21
     while matches > 0:
         node.matches = matches
         coup = input_game(player1, player2, node)
@@ -17,6 +48,18 @@ def nim_game(player1,player2, node):
     return player1, player2
 
 def main (config):
+    """
+    Lance le programme principal.
+
+    : parameter
+        config : mode de jeu choisi
+
+    : type
+        config : str
+
+    : return
+        Aucun.
+    """
 
     if config == "2":
         player1, player2 = play_game()
