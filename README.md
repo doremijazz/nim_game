@@ -20,6 +20,16 @@ nim_game/
 └── README.md
 ```
 
+## Technologies utilisées
+
+- POO
+- Git
+- GitHub
+
+## Bibliothéques
+
+ - Aucune
+
 ## Auteur
 
 Projet réalisé par [doremijazz](https://github.com/doremijazz).
