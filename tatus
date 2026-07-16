@@ -1,0 +1,105 @@
+[33mcommit 4c5f89630ac3a16e24064567c3ad860bdc465bc9[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: doremijazz <55767732+doremijazz@users.noreply.github.com>
+Date:   Mon Jul 13 11:55:35 2026 +0200
+
+    Correction de la description de la condition de victoire dans le README
+    
+    Corrected the winning condition in the game description.
+
+[33mcommit 10233a5c19f81fab316461042341f7f3f1b93e02[m
+Author: doremijazz <55767732+doremijazz@users.noreply.github.com>
+Date:   Mon Jul 13 11:47:03 2026 +0200
+
+    Ajout des sections « Technologies » et « Bibliothèques » dans le README
+    
+    Added sections for technologies used and libraries in README.
+
+[33mcommit 941e47b5805967f3c33bcd8bc5e46ec4ac2c8286[m
+Author: doremijazz <55767732+doremijazz@users.noreply.github.com>
+Date:   Mon Jul 13 11:40:42 2026 +0200
+
+    Création du README du projet Jeu de Nim
+
+[33mcommit 008e00a248dd771383ab091956a389df46591516[m
+Author: Anaïs BINET <anais.binet@fms-ea.com>
+Date:   Mon Jul 13 13:42:21 2026 +0200
+
+    Ajout des docstrings dans player.py
+
+[33mcommit 17beb8654a0b7f166b3404101365fbb8df6431ad[m
+Author: Anaïs BINET <anais.binet@fms-ea.com>
+Date:   Mon Jul 13 13:38:35 2026 +0200
+
+    Ajout des docstrings dans minimax.py
+
+[33mcommit c5f9e50ec7549759038a62733844ab662a068368[m
+Author: Anaïs BINET <anais.binet@fms-ea.com>
+Date:   Mon Jul 13 13:35:16 2026 +0200
+
+    Ajout des docstrings dans game.py
+
+[33mcommit d7f0c2098e1d6f880218e49a2090bb8055a908f3[m
+Author: Anaïs BINET <anais.binet@fms-ea.com>
+Date:   Fri Jul 10 16:46:10 2026 +0200
+
+    Finalisation du mode de jeu contre l'ordinateur
+
+[33mcommit da7dad89646b22cc95eff2729b4d9479bea74930[m
+Author: Anaïs BINET <anais.binet@fms-ea.com>
+Date:   Fri Jul 10 15:05:16 2026 +0200
+
+    Finalisation de la question 1
+
+[33mcommit a52bb92e9adb86818f933b4e1d8028dd207bd948[m
+Author: Anaïs BINET <anais.binet@fms-ea.com>
+Date:   Fri Jul 10 14:29:54 2026 +0200
+
+    Création de la classe Player
+
+[33mcommit 70639aa9c330f58ac517f58cf6d56b78d62b7480[m
+Author: Anaïs BINET <anais.binet@fms-ea.com>
+Date:   Fri Jul 10 14:29:11 2026 +0200
+
+    Implémentation de l'algorithme Minimax
+
+[33mcommit 1b5db5a8ce907248bdbb9e4a338112aa1b2e3229[m
+Author: Anaïs BINET <anais.binet@fms-ea.com>
+Date:   Fri Jul 10 14:28:04 2026 +0200
+
+    Ajout des saisies pour le mode deux joueurs et le mode contre l'ordinateur
+
+[33mcommit c50dc3bccc6816540654a3556c1ee434e4b71c0c[m
+Author: Anaïs BINET <anais.binet@fms-ea.com>
+Date:   Fri Jul 10 14:27:08 2026 +0200
+
+    Traduction des noms de variables du français vers l'anglais
+
+[33mcommit bb65065f0bb7249be705f4142596c2538163696d[m
+Author: Anaïs BINET <anais.binet@fms-ea.com>
+Date:   Fri Jul 10 14:12:38 2026 +0200
+
+    Création de la classe Player
+
+[33mcommit 1fb8b27b73a2a054a5dc475dae10183dbb26035f[m
+Author: Anaïs BINET <anais.binet@fms-ea.com>
+Date:   Fri Jul 10 13:53:25 2026 +0200
+
+    Création de la classe Node
+
+[33mcommit dba1a60a9959a1012079ae797baff6d2838fd4a7[m
+Author: Anaïs BINET <anais.binet@fms-ea.com>
+Date:   Fri Jul 10 13:41:50 2026 +0200
+
+    Ajout de .gitignore
+
+[33mcommit e0170236f1eb8415fc5375fe2159dad414baf6e0[m
+Author: Anaïs BINET <anais.binet@fms-ea.com>
+Date:   Fri Jul 10 13:41:10 2026 +0200
+
+    Création des fonctions de saisie utilisateur
+
+[33mcommit 6cd2e4ef3771d7db94db6c9a14afc1b1cb82743b[m
+Author: Anaïs BINET <anais.binet@fms-ea.com>
+Date:   Fri Jul 10 13:30:05 2026 +0200
+
+    Creation du projet
